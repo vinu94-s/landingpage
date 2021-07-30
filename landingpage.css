@@ -1,0 +1,52 @@
+body{
+  margin:60px;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+
+nav{
+  background-color: skyblue;
+  padding:0.5rem 1rem;
+}
+
+
+nav>ul{
+  list-style: none;
+  display:flex;
+  gap: 20px;
+  justify-content:flex-end;
+}
+.logo{
+  font-weight: 600;
+  margin-right:auto;
+}
+.brand{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img{
+  width: 100%;
+  height: 20rem;
+}
+.img-responsive{
+  width: 200px;
+  clip-path: circle();
+}
+.client{
+  display: flex;
+}
+.imagee{
+  display: inline-flex;
+  width:38%;
+}
+.pictures{
+  display: flex;
+}
+.foo{
+  
+  text-align: center;
+}
+.foo1{
+  gap:10px;
+}
